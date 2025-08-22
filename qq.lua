@@ -9,7 +9,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 3
 })
 
-
+-- Silent Aim
 function enableSilentAim()
     coroutine.resume(coroutine.create(function()
         while wait(1) do

@@ -2,11 +2,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Silent Aim",
-    Text = "Script successfully loaded!",
-    Duration = 3
-})
+print("Attempting to inject qq.lua…")
 
 -- Discord
 local discordInvite = "https://discord.gg/n99CyYESPZ"
@@ -74,3 +70,6 @@ function enableSilentAim()
 end
 
 enableSilentAim()
+
+
+print("Succesfully injected qq.lua!")

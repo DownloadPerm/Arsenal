@@ -1,8 +1,8 @@
+print("Attempting to inject qq.lua…")
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
-
-print("Attempting to inject qq.lua…")
 
 -- Discord
 local discordInvite = "https://discord.gg/n99CyYESPZ"
